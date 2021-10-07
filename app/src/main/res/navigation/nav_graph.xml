@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen1">
+
+    <fragment
+        android:id="@+id/splashScreen1"
+        android:name="com.example.eco_ibook.fragments.SplashScreen1"
+        android:label="fragment_splash_screen1"
+        tools:layout="@layout/fragment_splash_screen1" >
+        <action
+            android:id="@+id/action_splashScreen1_to_onboardingScreen"
+            app:destination="@id/onboardingScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingScreen"
+        android:name="com.example.eco_ibook.fragments.OnboardingScreen"
+        android:label="fragment_onboarding_screen"
+        tools:layout="@layout/fragment_onboarding_screen" >
+        <argument
+            android:name="splash screen"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_onboardingScreen_to_signIn"
+            app:destination="@id/signIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.example.eco_ibook.fragments.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <argument
+            android:name="get started"
+            app:argType="string" />
+        <argument
+            android:name="sign in"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_signIn_to_onboardingScreen"
+            app:destination="@id/onboardingScreen" />
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.eco_ibook.fragments.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_splashScreen2"
+            app:destination="@id/splashScreen2" />
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn" />
+        <argument
+            android:name="set up an account"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashScreen2"
+        android:name="com.example.eco_ibook.fragments.SplashScreen2"
+        android:label="fragment_splash_screen2"
+        tools:layout="@layout/fragment_splash_screen2" >
+        <argument
+            android:name="sign up"
+            app:argType="string" />
+    </fragment>
+</navigation>
