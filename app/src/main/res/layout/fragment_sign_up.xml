@@ -19,9 +19,10 @@
 
             <ImageView
                 android:id="@+id/signup_image"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
                 android:src="@drawable/signup" />
 
             <ImageView
@@ -71,7 +72,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_firstname"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="30dp"
@@ -80,14 +81,14 @@
                 android:hint="@string/first_name">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_pro_rounded_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_lastname"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -96,14 +97,14 @@
                 android:hint="@string/last_name">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_pro_rounded_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_username"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -112,14 +113,14 @@
                 android:hint="@string/username">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_pro_rounded_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_email"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -128,14 +129,14 @@
                 android:hint="@string/email">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_pro_rounded_regular" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/signup_password"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
@@ -146,7 +147,7 @@
                 app:passwordToggleTint="@color/orange_100">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="300dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/sf_pro_rounded_regular" />
             </com.google.android.material.textfield.TextInputLayout>
