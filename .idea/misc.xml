@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/drawable/categorisation_btn_bg.xml" value="0.13914473684210527" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/drawable/splash_background.xml" value="0.1" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/font/roboto_medium.xml" value="0.14802631578947367" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/font/sf_pro_display_medium.xml" value="0.14802631578947367" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/font/sf_pro_display_regular.xml" value="0.14802631578947367" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/font/sf_pro_rounded_regular.xml" value="0.14802631578947367" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/layout/fragment_categorisation.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/layout/fragment_fragments.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/layout/fragment_onboarding_screen.xml" value="0.14" />
         <entry key="..\:/Users/Mohbeauty/AndroidStudioProjects/ECO_iBook/app/src/main/res/layout/fragment_sign_in.xml" value="0.14" />

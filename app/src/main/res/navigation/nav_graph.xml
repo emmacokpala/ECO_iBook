@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_signIn_to_signUp"
             app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signIn_to_categorisation"
+            app:destination="@id/categorisation" />
     </fragment>
     <fragment
         android:id="@+id/signUp"
@@ -66,6 +69,18 @@
         tools:layout="@layout/fragment_splash_screen2" >
         <argument
             android:name="sign up"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_splashScreen2_to_categorisation"
+            app:destination="@id/categorisation" />
+    </fragment>
+    <fragment
+        android:id="@+id/categorisation"
+        android:name="com.example.eco_ibook.fragments.Categorisation"
+        android:label="fragment_categorisation"
+        tools:layout="@layout/fragment_categorisation" >
+        <argument
+            android:name="signin"
             app:argType="string" />
     </fragment>
 </navigation>

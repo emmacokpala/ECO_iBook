@@ -37,8 +37,8 @@
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="40dp"
-                android:scaleType="centerCrop"
                 android:importantForAccessibility="no"
+                android:scaleType="centerCrop"
                 android:src="@drawable/signin" />
 
             <ImageView
@@ -81,8 +81,8 @@
             android:id="@+id/signin_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
             android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="40dp"
             android:autofillHints="emailAddress"
             android:hint="@string/email"
@@ -99,8 +99,8 @@
             android:id="@+id/signin_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="40dp"
             android:autofillHints="password"
             android:hint="@string/password"

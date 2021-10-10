@@ -7,12 +7,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.example.eco_ibook.R
-import com.example.eco_ibook.databinding.FragmentSignInBinding
+import com.example.eco_ibook.databinding.FragmentCategorisationBinding
 
-class SignIn : Fragment() {
+class Categorisation : Fragment() {
 
-    private var _binding: FragmentSignInBinding? = null
+    private var _binding: FragmentCategorisationBinding? = null
     private val binding get() = _binding!!
     private lateinit var navCon: NavController
 
@@ -20,18 +19,15 @@ class SignIn : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentSignInBinding.inflate(inflater, container, false)
+        // Inflate the layout for this fragment
+        _binding = FragmentCategorisationBinding.inflate(inflater, container, false)
         navCon = NavHostFragment.findNavController(this)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.signinButton.setOnClickListener {
-            navCon.navigate(R.id.action_signIn_to_categorisation)
-        }
+        binding.btnAll.setOnClickListener {
 
-        binding.signinFooter1.setOnClickListener {
-            navCon.navigate(R.id.action_signIn_to_signUp)
         }
     }
 }

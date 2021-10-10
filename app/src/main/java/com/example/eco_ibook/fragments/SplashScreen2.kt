@@ -25,4 +25,11 @@ class SplashScreen2 : Fragment() {
         navCon = NavHostFragment.findNavController(this)
         return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        binding.splash2Button.setOnClickListener {
+            navCon.navigate(R.id.action_splashScreen2_to_categorisation)
+        }
+
+    }
 }
